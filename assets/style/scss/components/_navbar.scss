@@ -1,0 +1,74 @@
+@import '../_basic.scss';
+
+header {
+    menu {
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 22px 0px;
+            
+            .hamb-menu {
+                display: none;
+            }
+            
+            .logo_menu {
+                display: flex;
+                align-items: center;
+                column-gap: 58.18px;
+                
+                ul {
+                    display: flex;
+                    column-gap: 32px;
+                    
+                    li {
+                        
+                        a {
+                            color: #939CAA;
+                            font-family: Space Mono;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 0.5s;
+                            
+                            &:hover {
+                                color: #FCB72B;
+                            }
+                        }
+                    }
+                }
+            }
+            .mobile-hiddin {
+                display: none;
+            }
+            .btn {
+                padding: 14px 39px;
+                background-color: #FCB72B;
+                border: none;
+                outline: none;
+                transition: 0.5s ;
+
+                
+                a {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px;
+                }
+
+                &:hover {
+                    background-color: transparent;
+                    border: 3px solid #FCB72B;
+
+                    a {
+                        color: #FCB72B;
+                    }
+                }
+            }
+        }
+    }
+}
