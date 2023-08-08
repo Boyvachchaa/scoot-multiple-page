@@ -133,4 +133,31 @@ header menu nav .btn:hover a {
   header menu nav .btn {
     display: none;
   }
+}
+.banner {
+  background-image: url(../../../../../assets/images/home-hero-desktop.jpg);
+  background-size: cover;
+}
+.banner .banner__items {
+  padding: 153px 15px;
+}
+.banner .banner__items h1 {
+  max-width: 500px;
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+.banner .banner__items p {
+  padding-top: 40px;
+  max-width: 405px;
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }/*# sourceMappingURL=style.css.map */
