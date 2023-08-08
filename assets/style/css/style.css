@@ -58,6 +58,9 @@ li {
   max-width: 1560px;
 }
 
+header {
+  padding: 0px 15px;
+}
 header menu nav {
   display: flex;
   align-items: center;
@@ -115,4 +118,19 @@ header menu nav .btn:hover {
 }
 header menu nav .btn:hover a {
   color: #FCB72B;
+}
+
+@media only screen and (max-width: 768px) {
+  header menu nav .hamb-menu {
+    display: block;
+  }
+  header menu nav .logo_menu ul {
+    display: none;
+  }
+  header menu nav .mobile-hiddin {
+    display: block;
+  }
+  header menu nav .btn {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

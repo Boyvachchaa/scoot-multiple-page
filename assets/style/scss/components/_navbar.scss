@@ -1,6 +1,7 @@
 @import '../_basic.scss';
 
 header {
+    padding: 0px 15px;
     menu {
         nav {
             display: flex;
@@ -67,6 +68,30 @@ header {
                     a {
                         color: #FCB72B;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        menu {
+            nav {
+                .hamb-menu {
+                    display: block;
+                }
+                
+                .logo_menu {
+                    ul {
+                        display: none;
+                    }
+                }
+                .mobile-hiddin {
+                    display: block;
+                }
+                .btn {
+                    display: none;
                 }
             }
         }
