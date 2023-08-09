@@ -269,6 +269,47 @@ header menu nav .mobile-hiddin {
     margin-left: 0px;
   }
 }
+@media only screen and (max-width: 640px) {
+  .delivery {
+    display: none;
+  }
+  .delivery_mobile {
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 72px;
+  }
+  .delivery_mobile .mobile_item {
+    margin-top: 48px;
+  }
+  .delivery_mobile .mobile_item img {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .delivery_mobile .mobile_item h3 {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.893px;
+  }
+  .delivery_mobile .mobile_item p {
+    max-width: 311px;
+    margin: 0 auto;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
 main .telementry {
   padding-top: 200px;
   background-image: url(../../../../../assets/patterns/semi-circles.svg);
