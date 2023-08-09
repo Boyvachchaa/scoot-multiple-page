@@ -51,3 +51,202 @@
         }
     }
 }
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    // background-color: red;
+    margin: 0 auto;
+    padding-top: 200px;
+    
+    .city_items {
+        // background-image: url(../../../../logo.svg) ;
+        background-size: cover;
+        // background-position: top center; 
+        // background-color: blue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1350px;    
+        .city_text {
+            h4 {
+                max-width: 445px;
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.143px;
+            }
+            p {
+                max-width: 445px;
+                padding-top: 24px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+            .btn {
+                box-sizing:border-box;
+                margin-top: 40px;
+            }
+        }
+        .telemetry__image {
+            .ava {
+                position: relative;
+            }
+            .icon {
+                position: absolute;
+            }
+        }
+    }
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    // background-color: red;
+    margin: 0 auto;
+    padding-top: 200px;
+    
+    .payment__items {
+        // background-image: url(../../../../logo.svg) ;
+        background-size: cover;
+        // background-position: top center; 
+        // background-color: blue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1350px;    
+        .payment__text {
+            h4 {
+                max-width: 445px;
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.143px;
+            }
+            p {
+                max-width: 445px;
+                padding-top: 24px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+            .btn {
+                box-sizing:border-box;
+                margin-top: 40px;
+            }
+        }
+        .payment__image {
+            .ava {
+                position: relative;
+            }
+            .icon {
+                position: absolute;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .telemetry {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        // background-color: red;
+        margin: 0 auto;
+        padding-top: 200px;
+        
+        .telemetry__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            .telemetry__text {
+                h4 {
+                    max-width: 445px;
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+                p {
+                    max-width: 445px;
+                    padding-top: 24px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                .btn {
+                    box-sizing:border-box;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .city {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        // background-color: red;
+        margin: 0 auto;
+        padding-top: 200px;
+        
+        .city_items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            .city_text {
+                h4 {
+                    max-width: 445px;
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+                p {
+                    max-width: 445px;
+                    padding-top: 24px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                .btn {
+                    box-sizing:border-box;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
