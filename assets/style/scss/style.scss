@@ -1,7 +1,5 @@
 // Important Files
 @import '_basic.scss';
-@import '_mixins.scss';
-@import '_variables.scss';
 
 // Global
 @import 'components/navbar';
@@ -9,6 +7,7 @@
 // Home Page
 @import 'components/home-page/_banner-sec.scss';
 @import 'components/home-page/_delivery-sec.scss';
+@import 'components/home-page/_main-sec.scss';
 
 
 //  Button
