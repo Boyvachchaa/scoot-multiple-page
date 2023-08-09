@@ -313,6 +313,7 @@ header menu nav .mobile-hiddin {
 .telementry {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 200px 0px 160px 0px;
 }
 .telementry .telemtry_text h2 {
