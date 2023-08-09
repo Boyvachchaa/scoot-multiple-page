@@ -1,0 +1,49 @@
+main {
+    .telementry {
+        padding-top: 200px;
+        background-image: url(../../../../../assets/patterns/semi-circles.svg);
+        background-size: cover;
+        background-position: right center;
+        padding-bottom: 555px;
+        background-color: red;
+        
+        .telementry__items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .telementry-text {
+                column-gap: 200px;
+                h4 {
+                    max-width: 445px;
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+                p {
+                    padding-top: 24px;
+                    max-width: 445px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                .btn {
+                    margin-top: 40px;
+                }
+            }
+            .img-sec {
+
+                .ava {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
