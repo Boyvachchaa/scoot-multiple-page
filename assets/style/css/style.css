@@ -310,50 +310,6 @@ header menu nav .mobile-hiddin {
     line-height: 25px;
   }
 }
-main .telementry {
-  padding-top: 200px;
-  background-image: url(../../../../../assets/patterns/semi-circles.svg);
-  background-size: cover;
-  background-position: right center;
-  padding-bottom: 555px;
-  background-color: red;
-}
-main .telementry .telementry__items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-main .telementry .telementry__items .telementry-text {
-  -moz-column-gap: 200px;
-       column-gap: 200px;
-}
-main .telementry .telementry__items .telementry-text h4 {
-  max-width: 445px;
-  color: #495567;
-  font-family: Space Mono;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: -2.143px;
-}
-main .telementry .telementry__items .telementry-text p {
-  padding-top: 24px;
-  max-width: 445px;
-  color: #939CAA;
-  font-family: Lexend Deca;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-}
-main .telementry .telementry__items .telementry-text .btn {
-  margin-top: 40px;
-}
-main .telementry .telementry__items .img-sec .ava {
-  border-radius: 50%;
-}
-
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
