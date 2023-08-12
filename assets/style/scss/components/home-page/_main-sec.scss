@@ -48,15 +48,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    // background-color: red;
     margin: 0 auto;
     padding-top: 200px;
     
     .city_items {
-        // background-image: url(../../../../logo.svg) ;
-        background-size: cover;
-        // background-position: top center; 
-        // background-color: blue;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -102,15 +97,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    // background-color: red;
     margin: 0 auto;
     padding-top: 200px;
     
     .payment__items {
-        // background-image: url(../../../../logo.svg) ;
-        background-size: cover;
-        // background-position: top center; 
-        // background-color: blue;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -139,14 +129,6 @@
             .btn {
                 box-sizing:border-box;
                 margin-top: 40px;
-            }
-        }
-        .payment__image {
-            .ava {
-                position: relative;
-            }
-            .icon {
-                position: absolute;
             }
         }
     }
@@ -323,3 +305,83 @@
     }
 }
 // City Tablet And Mobile Section End
+
+// Payment Tablet And Mobile Seciton Start
+@media only screen and (max-width: 1024px) {
+    .payment {
+        
+        .payment__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;       
+            .payment__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    padding-top: 56px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+                p {
+                    width: 573px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .payment {
+        
+        .payment__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            .payment__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    width: 311px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: -1.429px;
+                }
+                p {
+                    width: 311px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+// Payment Tablet And Mobile Section End
