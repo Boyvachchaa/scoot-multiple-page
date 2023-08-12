@@ -324,7 +324,6 @@ header menu nav .mobile-hiddin {
   padding-top: 200px;
 }
 .telemetry .telemetry__items {
-  background-size: cover;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -354,11 +353,8 @@ header menu nav .mobile-hiddin {
   box-sizing: border-box;
   margin-top: 40px;
 }
-.telemetry .telemetry__items .telemetry__image .ava {
-  position: relative;
-}
-.telemetry .telemetry__items .telemetry__image .icon {
-  position: absolute;
+.telemetry .telemetry__items .telemetry-img .ava {
+  display: none;
 }
 
 .city {
@@ -452,13 +448,6 @@ header menu nav .mobile-hiddin {
 }
 
 @media only screen and (max-width: 1024px) {
-  .telemetry {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 0 auto;
-    padding-top: 200px;
-  }
   .telemetry .telemetry__items {
     display: flex;
     flex-direction: column-reverse;
@@ -466,9 +455,15 @@ header menu nav .mobile-hiddin {
     align-items: center;
     width: 1350px;
   }
+  .telemetry .telemetry__items .telemetry__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .telemetry .telemetry__items .telemetry__text h4 {
-    max-width: 445px;
+    padding-top: 56px;
     color: #495567;
+    text-align: center;
     font-family: Space Mono;
     font-size: 48px;
     font-style: normal;
@@ -477,18 +472,49 @@ header menu nav .mobile-hiddin {
     letter-spacing: -2.143px;
   }
   .telemetry .telemetry__items .telemetry__text p {
-    max-width: 445px;
-    padding-top: 24px;
+    width: 573px;
     color: #939CAA;
+    text-align: center;
     font-family: Lexend Deca;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
   }
-  .telemetry .telemetry__items .telemetry__text .btn {
-    box-sizing: border-box;
-    margin-top: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .telemetry .telemetry__items {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .telemetry .telemetry__items .telemetry__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .telemetry .telemetry__items .telemetry__text h4 {
+    width: 311px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+  }
+  .telemetry .telemetry__items .telemetry__text p {
+    width: 311px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -506,9 +532,15 @@ header menu nav .mobile-hiddin {
     align-items: center;
     width: 1350px;
   }
+  .city .city_items .city_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .city .city_items .city_text h4 {
-    max-width: 445px;
+    padding-top: 56px;
     color: #495567;
+    text-align: center;
     font-family: Space Mono;
     font-size: 48px;
     font-style: normal;
@@ -517,18 +549,49 @@ header menu nav .mobile-hiddin {
     letter-spacing: -2.143px;
   }
   .city .city_items .city_text p {
-    max-width: 445px;
-    padding-top: 24px;
+    width: 573px;
     color: #939CAA;
+    text-align: center;
     font-family: Lexend Deca;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
   }
-  .city .city_items .city_text .btn {
-    box-sizing: border-box;
-    margin-top: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .city .city_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .city .city_items .city_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .city .city_items .city_text h4 {
+    width: 311px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+  }
+  .city .city_items .city_text p {
+    width: 311px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
   }
 }
 .btn {

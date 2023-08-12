@@ -2,15 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    // background-color: red;
     margin: 0 auto;
     padding-top: 200px;
     
     .telemetry__items {
-        // background-image: url(../../../../logo.svg) ;
-        background-size: cover;
-        // background-position: top center; 
-        // background-color: blue;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -41,12 +36,9 @@
                 margin-top: 40px;
             }
         }
-        .telemetry__image {
+        .telemetry-img {
             .ava {
-                position: relative;
-            }
-            .icon {
-                position: absolute;
+                display: none;
             }
         }
     }
@@ -160,14 +152,9 @@
     }
 }
 
+// Telementry Tablet And Mobile Section Start
 @media only screen and (max-width: 1024px) {
     .telemetry {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        // background-color: red;
-        margin: 0 auto;
-        padding-top: 200px;
         
         .telemetry__items {
             display: flex;
@@ -175,10 +162,15 @@
             justify-content: space-between;
             align-items: center;
             width: 1350px;    
+            
             .telemetry__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 h4 {
-                    max-width: 445px;
+                    padding-top: 56px;
                     color: #495567;
+                    text-align: center;
                     font-family: Space Mono;
                     font-size: 48px;
                     font-style: normal;
@@ -187,31 +179,72 @@
                     letter-spacing: -2.143px;
                 }
                 p {
-                    max-width: 445px;
-                    padding-top: 24px;
+                    width: 573px;
                     color: #939CAA;
+                    text-align: center;
                     font-family: Lexend Deca;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 25px;
                 }
-                .btn {
-                    box-sizing:border-box;
-                    margin-top: 40px;
-                }
+                
             }
         }
     }
     
 }
 
+@media only screen and (max-width: 768px) {
+    .telemetry {
+        
+        .telemetry__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            
+            .telemetry__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    width: 311px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: -1.429px;
+                }
+                p {
+                    width: 311px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                
+            }
+        }
+    }
+    
+}
+// Telementry Tablet And Mobile Section End
+
+
+// City Tablet And Mobile Section Start
 @media only screen and (max-width: 1024px) {
     .city {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        // background-color: red;
         margin: 0 auto;
         padding-top: 200px;
         
@@ -222,9 +255,13 @@
             align-items: center;
             width: 1350px;    
             .city_text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 h4 {
-                    max-width: 445px;
+                    padding-top: 56px;
                     color: #495567;
+                    text-align: center;
                     font-family: Space Mono;
                     font-size: 48px;
                     font-style: normal;
@@ -233,20 +270,56 @@
                     letter-spacing: -2.143px;
                 }
                 p {
-                    max-width: 445px;
-                    padding-top: 24px;
+                    width: 573px;
                     color: #939CAA;
+                    text-align: center;
                     font-family: Lexend Deca;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 25px;
                 }
-                .btn {
-                    box-sizing:border-box;
-                    margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .city {
+        
+        .city_items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            .city_text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    width: 311px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: -1.429px;
+                }
+                p {
+                    width: 311px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
                 }
             }
         }
     }
 }
+// City Tablet And Mobile Section End
