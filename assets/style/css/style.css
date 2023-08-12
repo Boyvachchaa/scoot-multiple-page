@@ -407,6 +407,7 @@ header menu nav .mobile-hiddin {
   justify-content: flex-end;
   margin: 0 auto;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 .payment .payment__items {
   display: flex;
@@ -656,6 +657,41 @@ header menu nav .mobile-hiddin {
     line-height: 25px;
   }
 }
+footer {
+  background-color: #495567;
+  width: 100%;
+}
+footer .footer__items {
+  background-image: url(../../patterns/white-circles.svg);
+  background-size: cover;
+  background-position: bottom right;
+}
+footer .footer__items .footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer__items .footer-info .info__text {
+  padding: 102px 0px;
+  width: 415px;
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+footer .footer__items .footer-info .download {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+}
+footer .navigation {
+  width: 100%;
+  background-color: #333A44;
+}
+
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
