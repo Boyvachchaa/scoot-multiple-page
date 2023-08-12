@@ -293,6 +293,7 @@ header menu nav .mobile-hiddin {
     display: flex;
     align-items: center;
     margin: 0 auto;
+    padding-bottom: 24px;
   }
   .delivery_mobile .mobile_item h3 {
     color: #495567;
@@ -303,6 +304,7 @@ header menu nav .mobile-hiddin {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.893px;
+    padding-bottom: 24px;
   }
   .delivery_mobile .mobile_item p {
     max-width: 311px;
