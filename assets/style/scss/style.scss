@@ -1,13 +1,14 @@
 // Important Files
 @import '_basic.scss';
 
-// Global
-@import 'components/navbar';
-
 // Home Page
+@import 'components/_navbar.scss';
 @import 'components/home-page/_banner-sec.scss';
 @import 'components/home-page/_delivery-sec.scss';
 @import 'components/home-page/_main-sec.scss';
+@import 'components/_footer.scss';
+
+
 
 
 //  Button
