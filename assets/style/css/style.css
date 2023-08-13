@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -770,6 +771,92 @@ footer .navigation .navigation__items .navbar nav ul li a {
     flex-direction: column;
     align-items: center;
     row-gap: 16px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.big-container {
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 0px 15px;
+}
+header menu nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 0px;
+}
+header menu nav .hamb-menu {
+  display: none;
+}
+header menu nav .logo_menu {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 58.18px;
+       column-gap: 58.18px;
+}
+header menu nav .logo_menu ul {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+header menu nav .logo_menu ul li a {
+  color: #939CAA;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  transition: 0.5s;
+}
+header menu nav .logo_menu ul li a:hover {
+  color: #FCB72B;
+}
+header menu nav .mobile-hiddin {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header menu nav .hamb-menu {
+    display: block;
+  }
+  header menu nav .logo_menu ul {
+    display: none;
+  }
+  header menu nav .mobile-hiddin {
+    display: block;
+  }
+  header menu nav .btn {
+    display: none;
   }
 }
 .btn {
