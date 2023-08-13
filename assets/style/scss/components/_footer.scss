@@ -59,6 +59,10 @@ footer {
                                 font-style: normal;
                                 font-weight: 700;
                                 line-height: 25px;
+                                transition: 0.5s;
+                                &:hover {
+                                    color: #FCB72B;
+                                }
                             }
                         }
                     }

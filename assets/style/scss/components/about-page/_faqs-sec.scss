@@ -39,6 +39,11 @@
                     width: 730px;
                     padding: 32px 40px;
                     background-color: #F2F5F9;
+                    transition: 0.5s;
+                    &:hover {
+                        background-color: #FFF4DF;
+                        cursor: pointer;
+                    }
                     
                     .menu_text {
                         display: flex;
