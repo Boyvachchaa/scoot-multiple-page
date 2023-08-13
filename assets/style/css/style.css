@@ -1276,6 +1276,59 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
     letter-spacing: -0.804px;
   }
 }
+.careers-banner {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../../images/careers-locations-hero-desktop.jpg);
+  background-color: red;
+}
+.careers-banner .c_banner-items {
+  justify-content: space-between;
+  padding: 72px 0px;
+}
+.careers-banner .c_banner-items h5 {
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .careers-banner h5 {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .careers-banner {
+    background-image: url(../../images/careers-locations-hero-tablet.jpg);
+  }
+  .careers-banner h5 {
+    padding-left: 97px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .careers-banner {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../images/careers-location-hero-mobile.jpg);
+  }
+  .careers-banner .c_banner-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1350px;
+    padding: 72px 0px;
+  }
+  .careers-banner .c_banner-items h5 {
+    padding-left: 0px;
+  }
+  .careers-banner .c_banner-items img {
+    display: none;
+  }
+}
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
