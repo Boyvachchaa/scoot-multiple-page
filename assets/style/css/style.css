@@ -592,7 +592,7 @@ footer .navigation .navigation__items .navbar nav ul li a {
     letter-spacing: -2.143px;
   }
   .telemetry .telemetry__items .telemetry__text p {
-    width: 573px;
+    max-width: 573px;
     color: #939CAA;
     text-align: center;
     font-family: Lexend Deca;
@@ -669,7 +669,7 @@ footer .navigation .navigation__items .navbar nav ul li a {
     letter-spacing: -2.143px;
   }
   .city .city_items .city_text p {
-    width: 573px;
+    max-width: 573px;
     color: #939CAA;
     text-align: center;
     font-family: Lexend Deca;
@@ -739,7 +739,7 @@ footer .navigation .navigation__items .navbar nav ul li a {
     letter-spacing: -2.143px;
   }
   .payment .payment__items .payment__text p {
-    width: 573px;
+    max-width: 573px;
     color: #939CAA;
     text-align: center;
     font-family: Lexend Deca;
@@ -834,6 +834,224 @@ footer .navigation .navigation__items .navbar nav ul li a {
   }
   .about-banner .a_banner-items img {
     display: none;
+  }
+}
+.digital {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.digital .digital__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1350px;
+}
+.digital .digital__items .digital__text h4 {
+  max-width: 445px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+.digital .digital__items .digital__text p {
+  max-width: 445px;
+  padding-top: 24px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.digital .digital__items .digital-img .ava {
+  display: none;
+}
+
+.urban {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.urban .urban_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1350px;
+}
+.urban .urban_items .urban_text h4 {
+  max-width: 445px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+.urban .urban_items .urban_text p {
+  max-width: 445px;
+  padding-top: 24px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .digital .digital__items {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .digital .digital__items .digital__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .digital .digital__items .digital__text h4 {
+    padding-top: 56px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  .digital .digital__items .digital__text p {
+    max-width: 573px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .digital .digital__items {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .digital .digital__items .digital__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .digital .digital__items .digital__text h4 {
+    width: 311px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+  }
+  .digital .digital__items .digital__text p {
+    width: 311px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .urban {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding-top: 200px;
+  }
+  .urban .urban_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .urban .urban_items .urban_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .urban .urban_items .urban_text h4 {
+    padding-top: 56px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  .urban .urban_items .urban_text p {
+    max-width: 573px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .urban .urban_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .urban .urban_items .urban_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .urban .urban_items .urban_text h4 {
+    width: 311px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+  }
+  .urban .urban_items .urban_text p {
+    width: 311px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
   }
 }
 .btn {
