@@ -119,6 +119,117 @@ header menu nav .mobile-hiddin {
     display: none;
   }
 }
+footer {
+  background-color: #495567;
+  width: 100%;
+}
+footer .footer__items {
+  background-image: url(../../patterns/white-circles.svg);
+  background-size: cover;
+  background-position: bottom right;
+}
+footer .footer__items .footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer__items .footer-info .info__text h5 {
+  padding: 102px 0px;
+  max-width: 415px;
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+footer .footer__items .footer-info .download {
+  display: flex;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+}
+footer .navigation {
+  width: 100%;
+  background-color: #333A44;
+  padding: 0px 15px;
+}
+footer .navigation .navigation__items {
+  padding: 36px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .navigation .navigation__items .navbar {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 58.18px;
+       column-gap: 58.18px;
+}
+footer .navigation .navigation__items .navbar nav ul {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+footer .navigation .navigation__items .navbar nav ul li a {
+  color: #939CAA;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    background-color: #495567;
+    width: 100%;
+  }
+  footer .footer__items {
+    background-image: url(../../patterns/white-circles-tablet.svg);
+    background-size: cover;
+    background-position: bottom right;
+  }
+  footer .footer__items .footer-info {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__items .footer-info .info__text h5 {
+    width: 457px;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  footer .footer__items .footer-info .download {
+    padding-bottom: 62px;
+  }
+  footer .footer__items .footer-info .download img {
+    width: 113px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer .footer__items .footer-info .info__text h5 {
+    max-width: 311px;
+    text-align: center;
+  }
+  footer .navigation__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 85px;
+  }
+  footer .navigation__items .navbar {
+    flex-direction: column;
+    row-gap: 41.44px;
+  }
+  footer .navigation__items .navbar nav ul {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+  }
+}
 .banner {
   background-image: url(../../../../../assets/images/home-hero-desktop.jpg);
   background-size: cover;
@@ -661,232 +772,10 @@ header menu nav .mobile-hiddin {
     line-height: 25px;
   }
 }
-footer {
-  background-color: #495567;
-  width: 100%;
-}
-footer .footer__items {
-  background-image: url(../../patterns/white-circles.svg);
-  background-size: cover;
-  background-position: bottom right;
-}
-footer .footer__items .footer-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-footer .footer__items .footer-info .info__text h5 {
-  padding: 102px 0px;
-  max-width: 415px;
-  color: #FFF;
-  font-family: Space Mono;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: -2.143px;
-}
-footer .footer__items .footer-info .download {
-  display: flex;
-  -moz-column-gap: 28px;
-       column-gap: 28px;
-}
-footer .navigation {
-  width: 100%;
-  background-color: #333A44;
-  padding: 0px 15px;
-}
-footer .navigation .navigation__items {
-  padding: 36px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-footer .navigation .navigation__items .navbar {
-  display: flex;
-  align-items: center;
-  -moz-column-gap: 58.18px;
-       column-gap: 58.18px;
-}
-footer .navigation .navigation__items .navbar nav ul {
-  display: flex;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
-}
-footer .navigation .navigation__items .navbar nav ul li a {
-  color: #939CAA;
-  font-family: Space Mono;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 25px;
-}
-
-@media only screen and (max-width: 1024px) {
-  footer {
-    background-color: #495567;
-    width: 100%;
-  }
-  footer .footer__items {
-    background-image: url(../../patterns/white-circles-tablet.svg);
-    background-size: cover;
-    background-position: bottom right;
-  }
-  footer .footer__items .footer-info {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .footer__items .footer-info .info__text h5 {
-    width: 457px;
-    color: #FFF;
-    text-align: center;
-    font-family: Space Mono;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -2.143px;
-  }
-  footer .footer__items .footer-info .download {
-    padding-bottom: 62px;
-  }
-  footer .footer__items .footer-info .download img {
-    width: 113px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  footer .footer__items .footer-info .info__text h5 {
-    max-width: 311px;
-    text-align: center;
-  }
-  footer .navigation__items {
-    display: flex;
-    flex-direction: column;
-    row-gap: 85px;
-  }
-  footer .navigation__items .navbar {
-    flex-direction: column;
-    row-gap: 41.44px;
-  }
-  footer .navigation__items .navbar nav ul {
-    flex-direction: column;
-    align-items: center;
-    row-gap: 16px;
-  }
-}
 .about-banner {
   background-color: red;
 }
 
-footer {
-  background-color: #495567;
-  width: 100%;
-}
-footer .footer__items {
-  background-image: url(../../patterns/white-circles.svg);
-  background-size: cover;
-  background-position: bottom right;
-}
-footer .footer__items .footer-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-footer .footer__items .footer-info .info__text h5 {
-  padding: 102px 0px;
-  max-width: 415px;
-  color: #FFF;
-  font-family: Space Mono;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: -2.143px;
-}
-footer .footer__items .footer-info .download {
-  display: flex;
-  -moz-column-gap: 28px;
-       column-gap: 28px;
-}
-footer .navigation {
-  width: 100%;
-  background-color: #333A44;
-  padding: 0px 15px;
-}
-footer .navigation .navigation__items {
-  padding: 36px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-footer .navigation .navigation__items .navbar {
-  display: flex;
-  align-items: center;
-  -moz-column-gap: 58.18px;
-       column-gap: 58.18px;
-}
-footer .navigation .navigation__items .navbar nav ul {
-  display: flex;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
-}
-footer .navigation .navigation__items .navbar nav ul li a {
-  color: #939CAA;
-  font-family: Space Mono;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 25px;
-}
-
-@media only screen and (max-width: 1024px) {
-  footer {
-    background-color: #495567;
-    width: 100%;
-  }
-  footer .footer__items {
-    background-image: url(../../patterns/white-circles-tablet.svg);
-    background-size: cover;
-    background-position: bottom right;
-  }
-  footer .footer__items .footer-info {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .footer__items .footer-info .info__text h5 {
-    width: 457px;
-    color: #FFF;
-    text-align: center;
-    font-family: Space Mono;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -2.143px;
-  }
-  footer .footer__items .footer-info .download {
-    padding-bottom: 62px;
-  }
-  footer .footer__items .footer-info .download img {
-    width: 113px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  footer .footer__items .footer-info .info__text h5 {
-    max-width: 311px;
-    text-align: center;
-  }
-  footer .navigation__items {
-    display: flex;
-    flex-direction: column;
-    row-gap: 85px;
-  }
-  footer .navigation__items .navbar {
-    flex-direction: column;
-    row-gap: 41.44px;
-  }
-  footer .navigation__items .navbar nav ul {
-    flex-direction: column;
-    align-items: center;
-    row-gap: 16px;
-  }
-}
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
