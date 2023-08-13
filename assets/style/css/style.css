@@ -1329,6 +1329,44 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
     display: none;
   }
 }
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.mission .mission__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1350px;
+}
+.mission .mission__items .mission__text h4 {
+  max-width: 445px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+.mission .mission__items .mission__text p {
+  max-width: 445px;
+  padding-top: 24px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.mission .mission__items .mission__text .btn {
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
