@@ -28,6 +28,12 @@ li {
   margin: 0 auto;
 }
 
+.banner-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 1350px;
+}
+
 .big-container {
   max-width: 1560px;
   margin: 0 auto;
@@ -59,6 +65,12 @@ li {
 .container {
   max-width: 1110px;
   margin: 0 auto;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 1350px;
 }
 
 .big-container {
@@ -773,9 +785,57 @@ footer .navigation .navigation__items .navbar nav ul li a {
   }
 }
 .about-banner {
-  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../../images/about-hero-desktop.jpg);
+}
+.about-banner .a_banner-items {
+  justify-content: space-between;
+  padding: 72px 0px;
+}
+.about-banner .a_banner-items h5 {
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
 }
 
+@media only screen and (max-width: 1110px) {
+  .about-banner h5 {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .about-banner {
+    background-image: url(../../images/about-hero-tablet.jpg);
+  }
+  .about-banner h5 {
+    padding-left: 97px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-banner {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../images/about-hero-desktop.jpg);
+  }
+  .about-banner .a_banner-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1350px;
+    padding: 72px 0px;
+  }
+  .about-banner .a_banner-items h5 {
+    padding-left: 0px;
+  }
+  .about-banner .a_banner-items img {
+    display: none;
+  }
+}
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;

@@ -26,6 +26,12 @@ li {
     margin: 0 auto;
 }
 
+.banner-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 1350px;
+}
+
 
 .big-container {
     max-width: 1560px;
