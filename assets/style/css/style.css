@@ -675,9 +675,9 @@ footer .footer__items .footer-info {
   align-items: center;
   justify-content: space-between;
 }
-footer .footer__items .footer-info .info__text {
+footer .footer__items .footer-info .info__text h5 {
   padding: 102px 0px;
-  width: 415px;
+  max-width: 415px;
   color: #FFF;
   font-family: Space Mono;
   font-size: 48px;
@@ -747,6 +747,9 @@ footer .navigation .navigation__items .navbar nav ul li a {
   }
   footer .footer__items .footer-info .download {
     padding-bottom: 62px;
+  }
+  footer .footer__items .footer-info .download img {
+    width: 113px;
   }
 }
 @media only screen and (max-width: 768px) {

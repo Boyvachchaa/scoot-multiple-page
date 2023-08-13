@@ -13,14 +13,16 @@ footer {
             justify-content: space-between;
             
             .info__text {
-                padding: 102px 0px;
-                width: 415px;
-                color: #FFF;
-                font-family: Space Mono;
-                font-size: 48px;
-                font-weight: 700;
-                line-height: 48px;
-                letter-spacing: -2.143px;
+                h5 {
+                    padding: 102px 0px;
+                    max-width: 415px;
+                    color: #FFF;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
             }
             .download {
                 display: flex;
@@ -95,11 +97,15 @@ footer {
                 }
                 .download {
                     padding-bottom: 62px;
+                    img {
+                        width: 113px;
+                    }
                 }
             }
         }
     }
 }
+// Footer Tablet And Mobile Section End
 
 // Footer Tablet And Mobile Section Start
 @media only screen and (max-width: 768px ) {
@@ -136,3 +142,5 @@ footer {
         }
     }
 }
+// Footer Tablet And Mobile Section End
+
