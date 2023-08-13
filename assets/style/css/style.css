@@ -296,6 +296,7 @@ header menu nav .mobile-hiddin {
     padding-bottom: 24px;
   }
   .delivery_mobile .mobile_item h3 {
+    max-width: 200px;
     color: #495567;
     text-align: center;
     font-family: Space Mono;
@@ -305,6 +306,7 @@ header menu nav .mobile-hiddin {
     line-height: 28px;
     letter-spacing: -0.893px;
     padding-bottom: 24px;
+    margin: 0 auto;
   }
   .delivery_mobile .mobile_item p {
     max-width: 311px;
@@ -733,13 +735,12 @@ footer .navigation .navigation__items .navbar nav ul li a {
     display: flex;
     flex-direction: column;
   }
-  footer .footer__items .footer-info .info__text {
+  footer .footer__items .footer-info .info__text h5 {
     width: 457px;
     color: #FFF;
     text-align: center;
     font-family: Space Mono;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: -2.143px;
@@ -749,6 +750,10 @@ footer .navigation .navigation__items .navbar nav ul li a {
   }
 }
 @media only screen and (max-width: 768px) {
+  footer .footer__items .footer-info .info__text h5 {
+    max-width: 311px;
+    text-align: center;
+  }
   footer .navigation__items {
     display: flex;
     flex-direction: column;
@@ -764,10 +769,6 @@ footer .navigation .navigation__items .navbar nav ul li a {
     row-gap: 16px;
   }
 }
-* {
-  background-color: red;
-}
-
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;

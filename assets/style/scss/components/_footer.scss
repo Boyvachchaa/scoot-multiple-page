@@ -82,15 +82,16 @@ footer {
                 flex-direction: column;
                 
                 .info__text {
-                    width: 457px;
-                    color: #FFF;
-                    text-align: center;
-                    font-family: Space Mono;
-                    font-size: 48px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 48px;
-                    letter-spacing: -2.143px;
+                    h5 {
+                        width: 457px;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        letter-spacing: -2.143px;
+                    }
                 }
                 .download {
                     padding-bottom: 62px;
@@ -103,11 +104,23 @@ footer {
 // Footer Tablet And Mobile Section Start
 @media only screen and (max-width: 768px ) {
     footer {
+        
+        .footer__items {
+            
+            .footer-info {
+                .info__text {
+                    h5 {
+                        max-width: 311px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
         .navigation__items {
             display: flex;
             flex-direction: column;
             row-gap: 85px;
-
+            
             .navbar {
                 flex-direction: column;
                 row-gap: 41.44px;
@@ -116,7 +129,7 @@ footer {
                         flex-direction: column;
                         align-items: center;
                         row-gap: 16px;
-
+                        
                     }
                 }
             }
