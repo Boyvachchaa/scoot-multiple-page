@@ -1367,6 +1367,76 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .mission .mission__items {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .mission .mission__items .mission__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission .mission__items .mission__text h4 {
+    padding-top: 56px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  .mission .mission__items .mission__text p {
+    max-width: 573px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mission .mission__items {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+  }
+  .mission .mission__items .mission__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission .mission__items .mission__text h4 {
+    width: 311px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+  }
+  .mission .mission__items .mission__text p {
+    width: 311px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
