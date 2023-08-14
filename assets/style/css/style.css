@@ -277,6 +277,11 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 1340px) {
+  h5 {
+    padding-left: 110px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .banner {
     background-image: url(../../../../../assets/images/home-hero-tablet.jpg);
@@ -1609,7 +1614,76 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 .map {
-  padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  background-image: url(../../images/world-map-desktop.png);
+  background-size: cover;
+  padding: 250px 0px;
+}
+.map h5 {
+  color: #495567;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+.map .newyork {
+  background-image: url(../../images/new-york-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 22px 39.5px 38px 38.5px;
+  transform: translate(180px, -170px);
+}
+.map .london {
+  background-image: url(../../images/new-york-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 22px 53px 38px 53px;
+  transform: translate(75px, -225px);
+}
+.map .yokohama {
+  background-image: url(../../images/new-york-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 22px 39.5px 38px 38.5px;
+  transform: translate(260px, -160px);
+}
+.map .jakarta {
+  background-image: url(../../images/new-york-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 22px 46px 38px 46px;
+  transform: translate(-82px, 28px);
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0px;
+}
+.message h4 {
+  max-width: 351px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+.message p {
+  max-width: 445px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .btn {
