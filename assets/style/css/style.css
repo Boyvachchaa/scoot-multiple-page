@@ -1608,6 +1608,10 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
     line-height: 25px;
   }
 }
+.map {
+  padding-top: 130px;
+}
+
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
