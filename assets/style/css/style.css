@@ -458,6 +458,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   justify-content: flex-end;
   margin: 0 auto;
   padding-top: 200px;
+  background-image: url(../../patterns/circle.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
 }
 .telemetry .telemetry__items {
   display: flex;
@@ -499,6 +502,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   justify-content: flex-start;
   margin: 0 auto;
   padding-top: 200px;
+  background-image: url(../../patterns/left-circle.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 95%;
 }
 .city .city_items {
   display: flex;
@@ -544,6 +550,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../../patterns/circle.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
 }
 .payment .payment__items {
   display: flex;
@@ -577,6 +586,11 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
 }
 
 @media only screen and (max-width: 1024px) {
+  .telemetry {
+    background-image: url(../../patterns/circle.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 45%;
+  }
   .telemetry .telemetry__items {
     display: flex;
     flex-direction: column-reverse;
@@ -612,6 +626,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .telemetry {
+    background-image: none;
+  }
   .telemetry .telemetry__items {
     display: flex;
     flex-direction: column-reverse;
@@ -653,6 +670,7 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
     justify-content: flex-end;
     margin: 0 auto;
     padding-top: 200px;
+    background-position: 0% 40%;
   }
   .city .city_items {
     display: flex;
@@ -689,6 +707,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .city {
+    background-image: none;
+  }
   .city .city_items {
     display: flex;
     flex-direction: column;
@@ -724,6 +745,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 @media only screen and (max-width: 1024px) {
+  .payment {
+    background-position: 100% 38%;
+  }
   .payment .payment__items {
     display: flex;
     flex-direction: column-reverse;
@@ -759,6 +783,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .payment {
+    background-image: none;
+  }
   .payment .payment__items {
     display: flex;
     flex-direction: column-reverse;
@@ -851,6 +878,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   justify-content: flex-end;
   margin: 0 auto;
   padding-top: 120px;
+  background-image: url(../../patterns/circle.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
 }
 .digital .digital__items {
   display: flex;
@@ -888,6 +918,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   justify-content: flex-start;
   margin: 0 auto;
   padding-top: 120px;
+  background-image: url(../../patterns/left-circle.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 70%;
 }
 .urban .urban_items {
   display: flex;
@@ -917,6 +950,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
 }
 
 @media only screen and (max-width: 1024px) {
+  .digital {
+    background-position: 100% 30%;
+  }
   .digital .digital__items {
     display: flex;
     flex-direction: column-reverse;
@@ -952,6 +988,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .digital {
+    background-image: none;
+  }
   .digital .digital__items {
     display: flex;
     flex-direction: column-reverse;
@@ -993,6 +1032,7 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
     justify-content: flex-end;
     margin: 0 auto;
     padding-top: 200px;
+    background-position: 0% 60%;
   }
   .urban .urban_items {
     display: flex;
@@ -1029,6 +1069,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .urban {
+    background-image: none;
+  }
   .urban .urban_items {
     display: flex;
     flex-direction: column;
@@ -1454,6 +1497,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   justify-content: flex-end;
   margin: 0 auto;
   padding-top: 200px;
+  background-image: url(../../patterns/circle.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 .mission .mission__items {
   display: flex;
@@ -1487,6 +1533,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
 }
 
 @media only screen and (max-width: 1024px) {
+  .mission {
+    background-position: 100% 40%;
+  }
   .mission .mission__items {
     display: flex;
     flex-direction: column-reverse;
@@ -1522,6 +1571,9 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .mission {
+    background-image: none;
+  }
   .mission .mission__items {
     display: flex;
     flex-direction: column-reverse;
@@ -1630,34 +1682,6 @@ footer .navigation .navigation__items .navbar nav ul li a:hover {
   font-weight: 700;
   line-height: 28px;
   letter-spacing: -1.071px;
-}
-.map .newyork {
-  background-image: url(../../images/new-york-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 22px 39.5px 38px 38.5px;
-  transform: translate(180px, -170px);
-}
-.map .london {
-  background-image: url(../../images/new-york-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 22px 53px 38px 53px;
-  transform: translate(75px, -225px);
-}
-.map .yokohama {
-  background-image: url(../../images/new-york-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 22px 39.5px 38px 38.5px;
-  transform: translate(260px, -160px);
-}
-.map .jakarta {
-  background-image: url(../../images/new-york-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 22px 46px 38px 46px;
-  transform: translate(-82px, 28px);
 }
 
 .message {
