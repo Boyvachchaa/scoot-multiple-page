@@ -464,7 +464,7 @@ footer .navigation .navigation__items .social .footer-icon:hover {
 .telemetry {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 200px;
   background-image: url(../../patterns/circle.svg);
@@ -508,7 +508,7 @@ footer .navigation .navigation__items .social .footer-icon:hover {
 .city {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 200px;
   background-image: url(../../patterns/left-circle.svg);
@@ -555,7 +555,7 @@ footer .navigation .navigation__items .social .footer-icon:hover {
 .payment {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -884,7 +884,7 @@ footer .navigation .navigation__items .social .footer-icon:hover {
 .digital {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 120px;
   background-image: url(../../patterns/circle.svg);
@@ -924,7 +924,7 @@ footer .navigation .navigation__items .social .footer-icon:hover {
 .urban {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 120px;
   background-image: url(../../patterns/left-circle.svg);
@@ -1513,7 +1513,7 @@ footer .navigation .navigation__items .social .footer-icon:hover {
 .mission {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 200px;
   background-image: url(../../patterns/circle.svg);
@@ -1884,8 +1884,7 @@ footer .navigation .navigation__items .social .footer-icon:hover {
 .btn {
   padding: 14px 39px;
   background-color: #FCB72B;
-  border: none;
-  outline: none;
+  border: 3px solid #fcb72b;
   transition: 0.5s;
 }
 .btn a {
