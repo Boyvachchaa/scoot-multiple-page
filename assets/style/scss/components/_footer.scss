@@ -4,7 +4,7 @@ footer {
     
     .footer__items {
         background-image: url(../../patterns/white-circles.svg);
-        background-size: cover;
+        background-repeat: no-repeat;
         background-position: bottom right;
         
         .footer-info {
@@ -93,9 +93,6 @@ footer {
         width: 100%;
         
         .footer__items {
-            background-image: url(../../patterns/white-circles-tablet.svg);
-            background-size: cover;
-            background-position: bottom right;
             
             .footer-info {
                 display: flex;

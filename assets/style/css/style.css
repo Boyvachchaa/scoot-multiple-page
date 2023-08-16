@@ -137,7 +137,7 @@ footer {
 }
 footer .footer__items {
   background-image: url(../../patterns/white-circles.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: bottom right;
 }
 footer .footer__items .footer-info {
@@ -213,11 +213,6 @@ footer .navigation .navigation__items .social .footer-icon:hover {
   footer {
     background-color: #495567;
     width: 100%;
-  }
-  footer .footer__items {
-    background-image: url(../../patterns/white-circles-tablet.svg);
-    background-size: cover;
-    background-position: bottom right;
   }
   footer .footer__items .footer-info {
     display: flex;
@@ -1344,7 +1339,7 @@ footer {
 }
 footer .footer__items {
   background-image: url(../../patterns/white-circles.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: bottom right;
 }
 footer .footer__items .footer-info {
@@ -1420,11 +1415,6 @@ footer .navigation .navigation__items .social .footer-icon:hover {
   footer {
     background-color: #495567;
     width: 100%;
-  }
-  footer .footer__items {
-    background-image: url(../../patterns/white-circles-tablet.svg);
-    background-size: cover;
-    background-position: bottom right;
   }
   footer .footer__items .footer-info {
     display: flex;
