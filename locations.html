@@ -51,20 +51,52 @@
     <!-- Section Banner End -->
     
     <!-- Map Section Start -->
-    <section class="map container">
-      <div class="newyork">
-        <h5>New York</h5>
-      </div>
-      <div class="london">
-        <h5>London</h5>
-      </div>
-      <div class="yokohama">
-        <h5>Yokohama</h5>
-      </div>
-      <div class="jakarta">
-        <h5>Jakarta</h5>
-      </div>
-    </section>
+    <main class="locations-container">
+      <section class="map">
+        <picture>
+          <source
+          srcset="assets/images/world-map-tablet.png"
+          media="(max-width: 1100px) and (min-width: 701px)"
+          />
+          <source
+          srcset="assets/images/world-map-mobile.png"
+          media="(max-width: 700px)"
+          />
+          <img
+          alt="world-map"
+          src="assets/images/world-map-desktop.png"
+          class="map__img"
+          />
+        </picture>
+        <div class="location" id="new-york">
+          <h4 class="location-name">New York</h4>
+        </div>
+        <div class="location" id="london">
+          <h4 class="location-name">London</h4>
+        </div>
+        <div class="location" id="yokohama">
+          <h4 class="location-name">Yokohama</h4>
+        </div>
+        <div class="location" id="jakarta">
+          <h4 class="location-name">Jakarta</h4>
+        </div>
+        
+        <div class="location-list">
+          <div class="location-list__item" id="similar">
+            <h4 class="heading-4 location-list__name">New York</h4>
+          </div>
+          <div class="location-list__item" id="london">
+            <h4 class="heading-4 location-list__name" >London</h4>
+          </div>
+          <div class="location-list__item" id="yokohama">
+            <h4 class="heading-4 location-list__name" >Yokohama</h4>
+          </div>
+          <div class="location-list__item" id="jakarta">
+            <h4 class="heading-4 location-list__name">Jakarta</h4>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Map Section End -->
     
     <!-- Message Section Start -->
