@@ -68,6 +68,20 @@ footer {
                     }
                 }
             }
+            .social {
+                display: flex;
+                column-gap: 24px;
+                .footer-icon {
+                    width: 24px;
+                    height: 24px;
+                    color: #FCB72B;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: #E5ECF4;
+                    }
+                }
+            }
         }
     }
 }
